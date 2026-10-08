@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.DS_Store
+onsite_sessions/
+archive/
+Ultralytics/
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.pt
+
+# Keep the download directories in the repository without committing assets.
+!models/.gitkeep
+!models/yolo/.gitkeep
+!assets/videos/.gitkeep
+AGENTS.md
